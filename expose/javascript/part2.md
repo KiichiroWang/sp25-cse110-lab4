@@ -24,3 +24,15 @@ E. 4, true is 1
 F. 0, false is 0 and null is 0
 G. '3undefined', string concatenation
 H. NaN, undefined cannot become a number
+14. d
+A. true, since '2' becomes an int
+B. false, both are strings and 2 is not lexicographically less
+C. True, equality allows for type coercion
+D. False, type must watch
+E. False, true becomes 1
+F. True, true === true
+15. == is loose equality and can type convert if different types. === is strict equality and does not convert.
+16. In part2-question16.js
+17. The array will return [2, 4, 6]. Modify array loops through [1, 2, 3] and applies doSomething to each input of the array where doSomething returns the doubled number. Therefore after the loop a new array of the original numbers doubled is returned.
+18. In part2-question18.js
+19. Returns 1 4 3 2 in separate lines.
